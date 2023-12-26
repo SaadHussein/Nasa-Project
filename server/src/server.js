@@ -12,7 +12,7 @@ async function startServer() {
   await loadPlanets();
   await loadLaunchData();
   server.listen(PORT, () => {
-    console.log("Hello To Nasa Project, Let`s us Be CI/CD and Test");
+    console.log("Hello To Nasa Project, Let`s us Be CI/CD and Test again");
   });
 }
 
